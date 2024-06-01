@@ -17,22 +17,23 @@ const Login = () => {
                 <img src='./assets/'/> 
             </div>
             <div className='welcome'>
-                <p>Volunteer Bridge</p>
+                <p>Volunteer </p>
+                <p>BRIDGE</p>
             
-            </div>
-            <div className='line'>
-              <p>Manage your events anywhere and</p>
-              <p>anytime.</p>
             </div>
         </div>
         <div className='vertical'></div>
         <form className='Sign-in'>
 
         <div className='user'>
-        <input type="text" id="username" className='textbox' placeholder="Email"/>
-        <input type="password" id="password" className='textbox' placeholder="Password"/>
+        <label htmlFor='username'>User ID</label>
+        <input type="text" id="username" className='textbox'/>
+        <label htmlFor='username'>Password</label>
+        <input type="password" id="password" className='textbox'/>
         <div className='Sign-in'>
-        <button id="Sign in" className='button' onClick={handleSignIn}>Sign in</button>
+        <button id="Sign in" className='button' onClick={handleSignIn}>Login</button>
+        <p>Don’t have an account? You can</p>
+        <p> sign up here</p>
         
         </div>
 
