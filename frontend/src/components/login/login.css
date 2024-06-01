@@ -1,5 +1,5 @@
 body{
-    background-color: #589EC6;
+    background-color: #F5F5DC;
 }
 .container {
     display: flex;
@@ -34,52 +34,67 @@ body{
 }
 
 .welcome {
-    line-height: 0.5;
-    margin-top: 190px;
-    margin-left: 45px;
+    line-height: 0.2;
+    margin-top: 250px;
+    margin-left: 47%;
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 100px;
     font-weight: 600;
-    color: #F3F2ED;
+    color: #2B4F5B;
 }
-.line{
-    line-height: 0.5;
-    margin-left: 75px;
-    font-family: 'Roboto';
-    font-size: 14px;
-    color: #F3F2ED;
-    margin-top: -15px;
-}
+
 .vertical{
-        border-left: 1px solid #ffffff; 
-        height: 500px; 
-        margin: 0 20px; 
+    position: absolute;
+    left: 50%;
+    border-left: 1.5px solid #000000; 
+    height: 550px;
+    transform: translateX(-50%);
 }
 .user {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    margin-right: 400px;
+    gap: 20px;
 }
-
+label{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 12px;
+    line-height: 0.2;
+    margin-bottom: 1px;
+    position: relative;
+    top: -20px;
+}
 .textbox {
     width: 300px;
-    padding: 10px;
-    border: 1px solid;
-    border-radius: 13px; 
+    padding: 20px;
+    border:none;
+    border-radius: 30px; 
     font-size: 16px;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #D9D9D9;
+    margin-right: 20px;
+    position: relative;
+    top: -25px;
 }
 
 .button {
-    padding: 10px 20px;
     border: none;
     margin: auto;
-    border-radius: 15px; 
     cursor: pointer;
     font-family: 'Roboto';
     font-weight: 600;
-    color: #000;
-    background-color: #ffffff;
+    font-size: 23px;
+    color: #000000;
+    background-color: transparent;
+    top: 20%; 
+    margin-left: 10px; 
+    transform: translateY(-30%);
+}
+.user p{
+    line-height: 0.2;
+    color: #4B9B67;
+    font-family: 'Roboto';
+    margin-left: 12px;
 }
