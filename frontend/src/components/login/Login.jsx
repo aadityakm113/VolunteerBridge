@@ -11,19 +11,19 @@ const Login = () => {
   }
 
   return (
-    <div className='container'>
-        <div className='left' >
-            <div className='logo'>
-                <img src='./assets/'/> 
-            </div>
-            <div className='welcome'>
-                <p>Volunteer </p>
-                <p>BRIDGE</p>
-            
-            </div>
+  <div className='container'>
+    <div className='left'>
+        <div className='logo'>
+            <img src='./assets/'/> 
         </div>
-        <div className='vertical'></div>
-        <form className='Sign-in'>
+        <div className='welcome'>
+            <p>Volunteer </p>
+            <p>BRIDGE</p>
+            
+        </div>
+    </div>
+    <div className='vertical'/>
+    <form className='Sign-in'>
 
         <div className='user'>
         <label htmlFor='username'>User ID</label>
@@ -33,7 +33,7 @@ const Login = () => {
         <div className='Sign-in'>
         <button id="Sign in" className='button' onClick={handleSignIn}>Login</button>
         <p>Don’t have an account? You can</p>
-        <p> sign up here</p>
+        <a href='/signup'><p> sign up here</p></a>
         
         </div>
 

@@ -1,3 +1,4 @@
+import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Landing from './components/landing/Landing'
 import Login from './components/login/Login'

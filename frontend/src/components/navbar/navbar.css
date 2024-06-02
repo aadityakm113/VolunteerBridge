@@ -1,0 +1,42 @@
+.navbar_container {
+    background-color: #4B9B67;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .title {
+    font-family: 'Roboto';
+    font-size: 37px;
+    font-weight: 600;
+    color: #2B4F5B;
+    margin-left: 300px;
+    letter-spacing: 0.1em; 
+  }
+  
+  .nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px; 
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+  }
+  
+  .nav_links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+    margin: 0 10px;
+  }
+  
+  .nav_links a:hover {
+    color: #23527c;
+  }
