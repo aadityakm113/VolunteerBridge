@@ -84,6 +84,18 @@ app.post('/login', async (req, res) => {
   }
 });
 
+// Logout endpoint
+app.post('/logout', async (req, res) => {
+  try {
+    // Clear the user's session
+    req.session.destroy();
+    res.status(200).json({ message: 'Logged out successfully' });
+  } catch (error) {
+    console.error('Error logging out:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
 // Get all NGOs endpoint
 app.get('/ngo', async (req, res) => {
   try {

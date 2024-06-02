@@ -1,5 +1,6 @@
+// Login.js
 import React, { useState } from 'react';
-import './login.css';
+import "./login.css"
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -17,14 +18,12 @@ const Login = () => {
         password,
       });
       if (response.status === 200) {
-        console.log('Valid credentials! Logging in...');
         navigate('/dashboard');
+        localStorage.setItem('isLoggedIn', true);
       } else {
-        console.log('Invalid credentials! Please try again.');
         setError('Invalid email or password');
       }
     } catch (error) {
-      console.log('Error logging in:', error);
       setError('Error logging in');
     }
   };
@@ -43,7 +42,7 @@ const Login = () => {
       <div className='vertical'/>
       <form className='Sign-in'>
         <div className='user'>
-          <label htmlFor='username'>Email ID</label>
+          <label htmlFor='username'>User ID</label>
           <input
             type="text"
             id="username"
