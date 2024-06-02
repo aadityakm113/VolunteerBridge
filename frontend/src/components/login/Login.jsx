@@ -32,7 +32,7 @@ const Login = () => {
     <div className='container'>
       <div className='left'>
         <div className='logo'>
-          <img src='./assets/'/> 
+          <img src='./assets/logo.png'/> 
         </div>
         <div className='welcome'>
           <p>Volunteer </p>
