@@ -1,4 +1,21 @@
+.landing_container{
+
+}
 .nav{
     display:flex;
     justify-content:space-between;
+}
+.hands{
+    margin-top: 120px;
+    position: absolute;
+  left: 0;
+  right: 0;
+}
+.hands img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.join{
+    text-align: center;   
 }
