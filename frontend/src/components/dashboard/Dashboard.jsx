@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Popup from '../popup/Popup';
 import './dashboard.css'
+import Navbar from '../navbar/Navbar';
 
 const Dashboard = () => {
     const data=[
@@ -63,6 +64,9 @@ const Dashboard = () => {
     }
   return (
     <div className='dashboard_container'>
+      <div className='nav'>
+          <Navbar/>
+      </div>
         {data.map((card,idx)=>(
             <div key={idx} className='card' onClick={()=>handleCardClick(card)}>
                 <img src={`/assets/${card.logo}`} alt={card.title}/>
