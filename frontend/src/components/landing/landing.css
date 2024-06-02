@@ -19,3 +19,24 @@
 .join{
     text-align: center;   
 }
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top:40%;
+  }
+  
+  .card {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }

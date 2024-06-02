@@ -19,7 +19,7 @@ const Navbar = ({ setIsLoggedIn, isLoggedIn }) => {
       </div>
       <div className='nav_links'>
         <a href="/dashboard">Dashboard</a>
-        <a href="/list">List</a>
+        {/* <a href="/list">List</a> */}
         <a href="/profile">Profile</a>
         <a href="/" onClick={handleSignOut}>Sign Out</a>
       </div>

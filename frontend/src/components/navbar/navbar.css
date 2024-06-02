@@ -23,6 +23,7 @@ body{
     color: #2B4F5B;
     margin-left: 300px;
     flex-grow: 1;
+    align-items:center;
   }
   
   .nav_links {
