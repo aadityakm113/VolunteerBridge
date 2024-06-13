@@ -6,7 +6,7 @@ const Signup = () => {
   const navigate = useNavigate();
 
   const handleChanges = (event) => {
-    event.preventDefault(); // Prevent the default form submission behavior
+    event.preventDefault();
     navigate('/dashboard');
   };
 
