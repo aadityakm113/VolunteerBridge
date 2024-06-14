@@ -41,7 +41,7 @@ const Login = () => {
       <div className='vertical'/>
       <form className='Sign-in'>
         <div className='user'>
-          <label htmlFor='username'>User ID</label>
+          <label htmlFor='username'>Email ID</label>
           <input
             type="text"
             id="username"
